@@ -40,27 +40,24 @@ It is designed to be used as a **tool component** within the Sofi AI Portfolio M
 
 ---
 
-## 📂 Project Structure
+## 🚀 Intended Use
 
-accounts-receivable-tool/
-├── tool/
-│ └── accounts_receivable_tool.py
-├── .gitignore
-├── requirements.txt
-└── README.md
+Part of the **Sofi AI Portfolio Manager** workflow: 
+Tools → Agents → Orchestration → Frontend
+---
 
-yaml
-Copy code
+## 📦 Prerequisites
+
+- Python 3.8+
+- langchain
+- pydantic
 
 ---
 
-## 🚀 Intended Use
+## 🛠️ Installation
 
-Part of the **Sofi AI Portfolio Manager** workflow:
+Install dependencies (optional):
 
-Tools → Agents → Orchestration → Frontend
+```bash
+pip install -r requirements.txt
 
-nginx
-Copy code
-
-This repository focuses only on the **tool layer**.
